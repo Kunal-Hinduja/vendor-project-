@@ -1,0 +1,16 @@
+SMAP
+Vendor_005fdetails_jsp.java
+JSP
+*S JSP
+*F
++ 0 Vendor_details.jsp
+Vendor_details.jsp
+*L
+1,143:46
+145,2:191
+146:193
+147,2:194,3
+149:200,6
+150:206,3
+151,145:209
+*E

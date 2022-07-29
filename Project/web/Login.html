@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title> Login</title>
+        
+        <link rel="stylesheet" type="text/css" href="Lcss.css">
+        
+      <!--  <script src="newjavascript.js" type="text/javascript"></script>-->
+    </head>
+    <body  oncopy="return false" onpaste="return false">
+        <div class="login">
+            <img src="LoginI.png" class="log" >
+            
+            <h1> Login  </h1>
+            <form action="Login" method="Post" id="Form">
+               
+                <p>User_name:</p>
+                <input type="text" id="nm" name="em" placeholder="Mail_ID" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"  title="please enter emial address" required >
+                
+                 <p>password:</p>
+                 <input type="password" id="pass" name="ps" placeholder="Enter password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"  title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters" required >
+                
+                 <input type="submit" value="login">
+                <p align="center">New vendor ?</p>
+                <a href="Singup.html" >
+                    Create An Account.
+              
+                </a>
+                <br>
+                <br>
+           </form>
+            
+            
+                
+            
+        </div>
+    </body>
+</html>
